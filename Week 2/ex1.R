@@ -25,7 +25,7 @@
 
 ## Initialization
 rm(list=ls())
-setwd("C:/Users/AVogl/Desktop/Coursera/Week 2")
+setwd("path/Coursera/Week 2")
 sources <- c("computeCost.R","gradientDescent.R",
              "plotData.R","warmUpExercise.R")
 source(sources[1])
