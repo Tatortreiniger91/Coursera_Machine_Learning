@@ -28,10 +28,9 @@ rm(list=ls())
 setwd("path/Coursera/Week 2")
 sources <- c("computeCost.R","gradientDescent.R",
              "plotData.R","warmUpExercise.R")
-source(sources[1])
-source(sources[2])
-source(sources[3])
-source(sources[4])
+for(i in 1:length(sources)){
+  source(sources[i])
+}
 ## ==================== Part 1: Basic Function ====================
 # Complete warmUpExercise.m 
 print('Running warmUpExercise ...')
