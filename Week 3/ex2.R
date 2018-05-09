@@ -19,7 +19,7 @@
 ## Initialization
 rm(list=ls())
 
-setwd("path/Coursera/Week 3")
+setwd("___/Week 3")
 sources <- c("plotData.R", "sigmoid.R","costFunction.R", "grad.R",
              "predict.R","mapFeature.R", "plotDecisionBoundary.R")
 for(i in 1:length(sources)){
