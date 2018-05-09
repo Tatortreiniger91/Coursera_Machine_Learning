@@ -25,7 +25,7 @@
 
 ## Initialization
 rm(list=ls())
-setwd("path/Coursera/Week 2")
+setwd("___/Week 2")
 sources <- c("computeCost.R","gradientDescent.R",
              "plotData.R","warmUpExercise.R")
 for(i in 1:length(sources)){
