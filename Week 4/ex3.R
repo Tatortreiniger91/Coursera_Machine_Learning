@@ -19,7 +19,7 @@
 ## Initialization
 rm(list=ls())
 
-setwd("C:/Users/AVogl/Desktop/Coursera/Week 4")
+setwd("___/Week 4")
 sources <- c("sigmoid.R", "displayData.R", "costFunction.R", "oneVsAll.R", "predictOneVsAll.R")
 for(i in 1:length(sources)){
   source(sources[i])
@@ -38,7 +38,7 @@ num_labels <- 10          # 10 labels, from 1 to 10
 print("Loading and Visualizing Data ...")
 
 library(R.matlab)
-dataset <- readMat("C:/Users/AVogl/Desktop/Coursera/Week 4/ex3data1.mat")
+dataset <- readMat("ex3data1.mat")
 X <- dataset[["X"]]
 y <- dataset[["y"]] # training data stored in arrays X, y
 
