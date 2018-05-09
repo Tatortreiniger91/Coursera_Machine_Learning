@@ -19,7 +19,7 @@
 rm(list=ls())
 
 
-setwd("C:/Users/AVogl/Desktop/Coursera/Week 5")
+setwd("____/Week 5")
 sources <- c("sigmoid.R", "displayData.R", "sigmoidGradient.R", "nnCostFunction.R", "checkNNGradients.R", 
              "computeNumericalGradient.R", "debugInitializeWeights.R", "randInitializeWeights.R", "PREDICT.R")
 for(i in 1:length(sources)){
@@ -41,7 +41,7 @@ num_labels <- 10          # 10 labels, from 1 to 10
 print("Loading and Visualizing Data ...")
 
 library(R.matlab)
-dataset <- readMat("C:/Users/AVogl/Desktop/Coursera/Week 5/ex4data1.mat")
+dataset <- readMat("ex4data1.mat")
 X <- dataset[["X"]]
 y <- dataset[["y"]]
 
@@ -62,7 +62,7 @@ displayData(sel)
 print("Loading Saved Neural Network Parameters ...")
 
 # Load the weights into variables Theta1 and Theta2
-Theta <- readMat("C:/Users/AVogl/Desktop/Coursera/Week 5/ex4weights.mat")
+Theta <- readMat("ex4weights.mat")
 Theta1 <- Theta[["Theta1"]]
 Theta2 <- Theta[["Theta2"]]
 
